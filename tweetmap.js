@@ -7,7 +7,7 @@ function map(document) {
                 if (Array.isArray(element)) {
                     console.log("Array" , key)
                 }else{
-                    console.log("object" , key)
+                    console.log("object " , key)
                 }
             }
         }
