@@ -1,0 +1,26 @@
+{
+  "name": "decomposer",
+  "version": "1.0.0",
+  "description": "Decomposer",
+  "main": "index.js",
+  "dependencies": {
+    "bson": "^2.0.7",
+    "bson-stream": "0.0.8",
+    "fast-csv": "^2.4.1",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshanmarathe/Decomposer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darshanmarathe/Decomposer/issues"
+  },
+  "homepage": "https://github.com/darshanmarathe/Decomposer#readme"
+}
