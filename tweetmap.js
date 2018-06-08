@@ -1,5 +1,5 @@
 function map(document) {
-    console.log(JSON.stringify(document, 4, null))
+    console.log(document)
     for (const key in document) {
         if (document.hasOwnProperty(key)) {
             const element = document[key];
@@ -7,7 +7,7 @@ function map(document) {
                 if (Array.isArray(element)) {
                     console.log("Array" , key)
                 }else{
-                    console.log("object " , key)
+                    console.log("object" , key)
                 }
             }
         }
